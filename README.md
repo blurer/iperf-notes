@@ -7,6 +7,17 @@ Great tool for troubleshooting and testing network connectivity between hosts.
 * CentOS: yum install iperf3 -y
 * Ubuntu: apt install iperf3 -y
 
+### Flags
+
+* -s = server (implicit tcp unless -u flag used)
+* -c = client 
+* -u = udp 
+* -p = port number (uses tcp unless -u flag used)
+* -t = duration in seconds of test
+* -i = interval of updates
+* -R = reverse client pull from server (default is client push to server)
+
+
 ### Server side usage
 
 * TCP: iperf3 -s
