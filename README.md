@@ -14,8 +14,9 @@ Great tool for troubleshooting and testing network connectivity between hosts.
 
 ### Client side usage and outputs
 
-iperf3 -c [ip] -t [time] -i [interval] -f [unit]
-iperf3 -c 144.202.93.99 -t 600 -i 1 -f m -R 
+``iperf3 -c [ip] -t [time] -i [interval] -f [unit]``
+
+``iperf3 -c 144.202.93.99 -t 600 -i 1 -f m -R ``
 
 ```
 - - - - - - - - - - - - - - - - - - - - - - - - -
